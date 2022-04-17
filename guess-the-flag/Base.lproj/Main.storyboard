@@ -15,10 +15,40 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xvj-YH-0Hf">
+                                <rect key="frame" x="95" y="100" width="224" height="114"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ire-QH-G0E">
+                                <rect key="frame" x="95" y="244" width="224" height="114"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XkH-FP-ylI">
+                                <rect key="frame" x="95" y="388" width="224" height="114"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ire-QH-G0E" firstAttribute="top" secondItem="Xvj-YH-0Hf" secondAttribute="bottom" constant="30" id="3Iy-4C-T0H"/>
+                            <constraint firstItem="XkH-FP-ylI" firstAttribute="top" secondItem="ire-QH-G0E" secondAttribute="bottom" constant="30" id="Kkm-bJ-eZD"/>
+                            <constraint firstItem="ire-QH-G0E" firstAttribute="centerX" secondItem="Xvj-YH-0Hf" secondAttribute="centerX" id="Nfr-7j-U16"/>
+                            <constraint firstItem="Xvj-YH-0Hf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="cKK-JJ-2k0"/>
+                            <constraint firstItem="XkH-FP-ylI" firstAttribute="centerX" secondItem="ire-QH-G0E" secondAttribute="centerX" id="eRn-Ck-v9N"/>
+                            <constraint firstItem="Xvj-YH-0Hf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jOy-nU-JBM"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gYB-HV-oA3"/>
+                    <connections>
+                        <outlet property="button1" destination="Xvj-YH-0Hf" id="iB4-U1-wgx"/>
+                        <outlet property="button2" destination="ire-QH-G0E" id="rPS-1b-6za"/>
+                        <outlet property="button3" destination="XkH-FP-ylI" id="bzD-OD-DiL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -44,6 +74,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="us" width="200" height="100"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
