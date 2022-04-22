@@ -16,18 +16,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xvj-YH-0Hf">
-                                <rect key="frame" x="95" y="100" width="224" height="114"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="us"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ire-QH-G0E">
-                                <rect key="frame" x="95" y="244" width="224" height="114"/>
+                                <rect key="frame" x="107" y="230" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="Pqp-rA-jbq"/>
+                                    <constraint firstAttribute="width" constant="200" id="cwG-cj-HIn"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="eSc-fc-o3k"/>
+                                    <constraint firstAttribute="height" constant="100" id="tEC-yO-Jyl"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XkH-FP-ylI">
-                                <rect key="frame" x="95" y="388" width="224" height="114"/>
+                                <rect key="frame" x="107" y="360" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="D4M-YM-uML"/>
+                                    <constraint firstAttribute="width" constant="200" id="Dff-gN-U2K"/>
+                                    <constraint firstAttribute="height" constant="100" id="EIy-Fd-kUn"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="Xfl-Km-OtA"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xvj-YH-0Hf">
+                                <rect key="frame" x="107" y="100" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="2sj-Uq-Ucw"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="6J8-u3-AIA"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="YAx-7U-ZcE"/>
+                                    <constraint firstAttribute="height" constant="100" id="gkr-On-ohk"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                             </button>
@@ -35,12 +53,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ire-QH-G0E" firstAttribute="top" secondItem="Xvj-YH-0Hf" secondAttribute="bottom" constant="30" id="3Iy-4C-T0H"/>
-                            <constraint firstItem="XkH-FP-ylI" firstAttribute="top" secondItem="ire-QH-G0E" secondAttribute="bottom" constant="30" id="Kkm-bJ-eZD"/>
-                            <constraint firstItem="ire-QH-G0E" firstAttribute="centerX" secondItem="Xvj-YH-0Hf" secondAttribute="centerX" id="Nfr-7j-U16"/>
-                            <constraint firstItem="Xvj-YH-0Hf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="cKK-JJ-2k0"/>
-                            <constraint firstItem="XkH-FP-ylI" firstAttribute="centerX" secondItem="ire-QH-G0E" secondAttribute="centerX" id="eRn-Ck-v9N"/>
-                            <constraint firstItem="Xvj-YH-0Hf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jOy-nU-JBM"/>
+                            <constraint firstItem="XkH-FP-ylI" firstAttribute="top" secondItem="ire-QH-G0E" secondAttribute="bottom" constant="30" id="6DY-tb-rYb"/>
+                            <constraint firstItem="Xvj-YH-0Hf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="OA8-CH-EgH"/>
+                            <constraint firstItem="XkH-FP-ylI" firstAttribute="centerX" secondItem="ire-QH-G0E" secondAttribute="centerX" id="VTX-T3-M3U"/>
+                            <constraint firstItem="ire-QH-G0E" firstAttribute="centerX" secondItem="Xvj-YH-0Hf" secondAttribute="centerX" id="XVP-RV-fAZ"/>
+                            <constraint firstItem="Xvj-YH-0Hf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="ujD-mI-fzH"/>
+                            <constraint firstItem="ire-QH-G0E" firstAttribute="top" secondItem="Xvj-YH-0Hf" secondAttribute="bottom" constant="30" id="wXQ-oj-T9E"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gYB-HV-oA3"/>
